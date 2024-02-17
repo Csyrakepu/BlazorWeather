@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/home/bence/Documents/code/C#/BlazorWeather/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/home/bence/Documents/code/C#/BlazorWeather/obj/Debug/net8.0/compressed/pxr5486h5u.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/home/bence/Documents/code/C#/BlazorWeather/obj/Debug/net8.0/scopedcss/bundle/BlazorWeather.styles.css",
+      "PackagePath": "staticwebassets/BlazorWeather.styles.css"
+    },
+    {
+      "Id": "/home/bence/Documents/code/C#/BlazorWeather/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/bence/Documents/code/C#/BlazorWeather/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/home/bence/Documents/code/C#/BlazorWeather/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BlazorWeather.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorWeather.props",
+      "PackagePath": "build\\BlazorWeather.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorWeather.props",
+      "PackagePath": "buildMultiTargeting\\BlazorWeather.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorWeather.props",
+      "PackagePath": "buildTransitive\\BlazorWeather.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

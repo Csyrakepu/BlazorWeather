@@ -1,0 +1,37 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Weather Service</h1>
+
+<input type="text" @bind="cityName"> 
+<button @onclick="RequestClicked">Get request</button>
+<p>Current temperature: @temperature ˚C</p>
+
+
+
+@code {
+
+    string temperature = "";
+    string cityName = "";
+
+    async Task RequestClicked()
+    {
+        if (cityName == "")
+        {
+            return;
+        }
+        try
+        {
+            await WeatherApi.SetResponse(cityName);
+        }
+        catch
+        {
+            return;
+        }
+        
+        if (WeatherApi.weather is null) return;
+        temperature = WeatherApi.weather.main.temp.ToString();
+        
+    }
+}
